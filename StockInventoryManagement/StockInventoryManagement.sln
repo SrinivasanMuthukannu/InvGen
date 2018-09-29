@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StockInventoryManagement", "StockInventoryManagement\StockInventoryManagement.csproj", "{FA278EB9-05D2-49EE-801F-ACE493AFC205}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObjectListView2012", "..\..\ObjectListViewFull-2.9.1\ObjectListViewDemo\ObjectListView\ObjectListView2012.csproj", "{18FEDA0C-D147-4286-B39A-01204808106A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{1355A89E-D481-466D-A26B-6ADD13027701}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FA278EB9-05D2-49EE-801F-ACE493AFC205}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{FA278EB9-05D2-49EE-801F-ACE493AFC205}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{FA278EB9-05D2-49EE-801F-ACE493AFC205}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{FA278EB9-05D2-49EE-801F-ACE493AFC205}.Debug|x86.ActiveCfg = Debug|x86
+		{FA278EB9-05D2-49EE-801F-ACE493AFC205}.Debug|x86.Build.0 = Debug|x86
+		{FA278EB9-05D2-49EE-801F-ACE493AFC205}.Release|Any CPU.ActiveCfg = Release|x86
+		{FA278EB9-05D2-49EE-801F-ACE493AFC205}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{FA278EB9-05D2-49EE-801F-ACE493AFC205}.Release|Mixed Platforms.Build.0 = Release|x86
+		{FA278EB9-05D2-49EE-801F-ACE493AFC205}.Release|x86.ActiveCfg = Release|x86
+		{FA278EB9-05D2-49EE-801F-ACE493AFC205}.Release|x86.Build.0 = Release|x86
+		{18FEDA0C-D147-4286-B39A-01204808106A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18FEDA0C-D147-4286-B39A-01204808106A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18FEDA0C-D147-4286-B39A-01204808106A}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{18FEDA0C-D147-4286-B39A-01204808106A}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{18FEDA0C-D147-4286-B39A-01204808106A}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{18FEDA0C-D147-4286-B39A-01204808106A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18FEDA0C-D147-4286-B39A-01204808106A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18FEDA0C-D147-4286-B39A-01204808106A}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{18FEDA0C-D147-4286-B39A-01204808106A}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{18FEDA0C-D147-4286-B39A-01204808106A}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
