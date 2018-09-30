@@ -22,8 +22,8 @@ namespace StockInventoryManagement
 
             #region Database Variables
 
-            public const String DATABASE_FILE = @"E:\Srinivasan\Apps\DotNetApps\StockManger\StockInventoryManagement\StockInventoryManagement\DB\database.db";
-            public const String DATABASE_VERSION = "3";
+            public static  String DATABASE_FILE = System.Configuration.ConfigurationSettings.AppSettings["DATABASE_FILE"];
+            public static String DATABASE_VERSION = System.Configuration.ConfigurationSettings.AppSettings["DATABASEVERSION"];
             private static SQLiteConnection sqlConnection = null;
 
             #endregion
@@ -848,13 +848,13 @@ namespace StockInventoryManagement
                 y += baseFont.Height + 5;
 
                 baseFont = new Font(FontFamily.GenericSansSerif, 14);
-                g.DrawString("Shope No.4, Om Complex", baseFont,grayBrush, x, y);
+                g.DrawString("SSS AGENCY", baseFont,grayBrush, x, y);
                 y += baseFont.Height + 5;
 
-                g.DrawString("Keriya Bypass Chowkdi", baseFont, grayBrush, x, y);
+                g.DrawString("MANGALAM", baseFont, grayBrush, x, y);
                 y += baseFont.Height + 5;
 
-                g.DrawString("Amreli - 365601", baseFont, grayBrush, x, y);
+                g.DrawString("PERAMBALUR", baseFont, grayBrush, x, y);
                 //y += baseFont.Height + 5;
 
                 baseFont = new Font(FontFamily.GenericSansSerif, 14);
@@ -943,11 +943,11 @@ namespace StockInventoryManagement
                 g.DrawLine(new Pen(new SolidBrush(Color.DimGray), 1), x, y, e.PageBounds.Width - 10, y);
                 y += 15;
 
-                g.DrawString("Chintan Patel", new Font(baseFont, FontStyle.Bold), blackBrush, x, y);
-                g.DrawString("Vijay Patel", new Font(baseFont, FontStyle.Bold), blackBrush, e.PageBounds.Width - 15 - g.MeasureString("Vijay Patel", baseFont).Width, y);
+                g.DrawString("SSS", new Font(baseFont, FontStyle.Bold), blackBrush, x, y);
+                g.DrawString("SSS", new Font(baseFont, FontStyle.Bold), blackBrush, e.PageBounds.Width - 15 - g.MeasureString("SSS", baseFont).Width, y);
                 y += baseFont.Height + 5;
-                g.DrawString("+91-9408453132", baseFont, blackBrush, x, y);
-                g.DrawString("+91-9824966001", baseFont, blackBrush, e.PageBounds.Width - 10 - g.MeasureString("+91-9824966001", baseFont).Width, y);
+                g.DrawString("###", baseFont, blackBrush, x, y);
+                g.DrawString("###", baseFont, blackBrush, e.PageBounds.Width - 10 - g.MeasureString("###", baseFont).Width, y);
 
                 //total_price.ToString("0.00")
                 //total_discount.ToString("0.00")
